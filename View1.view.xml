@@ -1,0 +1,16 @@
+<mvc:View controllerName="iddialogbox.dialogbox.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" 	xmlns:l="sap.ui.layout">
+    <Page id="page" title="{i18n>title}">
+        <content >
+     
+                <l:VerticalLayout class="sapUiContentPadding" width="100%">
+        <Label text="Employee ID" />
+        <Input id="employee" width="10rem" placeholder="Enter Id" showSuggestion="true" showValueHelp="true" valueHelpRequest="onPress" />
+         
+            
+        
+    </l:VerticalLayout>
+        </content>
+    </Page>
+</mvc:View>
